@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import logo from "../../assets/images/new-logo.png";
-import DropDown from "./DropDown";
+import DropDown from './DropDown'
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
