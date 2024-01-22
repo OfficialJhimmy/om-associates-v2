@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import logo from "../../assets/images/new-logo.png";
-import DropDown from './DropDown'
+import DropDown from '../Navigation/DropDown'
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -73,7 +73,6 @@ export const NewNavbar = () => {
             onClick={iconClick}
             className={`close-nav relative top-0 right-0 text-right text-3xl md:hidden `}
           >
-            {/* <i className="fa-solid fa-xmark"></i> */}
             <IoMdClose />
           </button>
 
@@ -90,7 +89,6 @@ export const NewNavbar = () => {
           onClick={iconClick}
           className={`show-nav md:hidden text-3xl cursor-pointer`}
         >
-          {/* <i className="fa-solid fa-bars"></i> */}
           <HiOutlineMenuAlt2 className="navbar__icons" />
         </button>
       </header>
