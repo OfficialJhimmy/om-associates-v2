@@ -1,0 +1,146 @@
+.whtapp__container {
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.whtapp__top--content h2 {
+    text-align: center;
+    line-height: 35px;
+}
+
+.whtapp__container h2 {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.whtapp__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.whtapp__child--main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 24px 25px;
+  border-radius: 5px;
+  transition: all ease-in-out 0.5s;
+  height: 95%;
+}
+
+.whtapp__child--main:hover {
+  transform: scale(0.95);
+}
+
+.whtapp__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.whtapp__content p {
+  display: inline-flex;
+  gap: 6px;
+  margin-bottom: 7px;
+}
+
+.whtapp__react--icon {
+  width: 30px;
+  height: 30px;
+}
+
+.whtapp__content h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.whtapp__content h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.whtapp__icon img {
+  width: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whtapp__top--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.button__whtapp {
+  display: inline-flex;
+  font-size: 14px;
+  background-color: #184e77;
+  border-radius: 5px;
+  padding: 15px 16px;
+  color: #f8f9fa;
+  transition: all ease-in-out 0.5s;
+}
+
+.button__whtapp:hover {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 680px) {
+    .whtapp__container {
+        padding: 50px 20px;
+      }
+    
+      .whtapp__container h2 {
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
+    
+      .whtapp__wrapper {
+        display: block;
+      }
+    
+      .whtapp__child--main {
+        padding: 14px 15px;
+      }
+    
+      .whatapp__first {
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .whtapp__content h2 {
+        font-size: 17px;
+        margin-bottom: 14px;
+      }
+    
+      .whtapp__icon img {
+        width: 17%;
+      }
+    
+      .whtapp__top--content {
+        margin-bottom: 40px;
+      }
+    
+      .button__whtapp {
+        font-size: 13px;
+      }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 681px) {
+}
+
+

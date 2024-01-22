@@ -1,0 +1,142 @@
+.values__container {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  background: #f5f5f5;
+}
+
+.values__cards {
+  display: flex;
+  gap: 30px;
+}
+
+.values__card {
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 23px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* TYPOGRAPHY */
+.values__info--colour {
+  display: flex;
+  padding: 0px 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #ffcc4a;
+  color: #181818;
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  font-family: "Lato", sans-serif;
+}
+
+.values__info h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.values__info--mission,
+.values__info--vision {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.values__info--mission--span,
+.values__info--vision--span {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #595566;
+  line-height: 23.6px;
+}
+
+.values__card--icon {
+  font-size: 30px;
+}
+
+.values__card h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.values__card p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 680px) {
+  .values__container {
+    gap: 50px;
+  }
+
+  .values__cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* TYPOGRAPHY */
+  .values__info--colour {
+    font-size: 13px;
+  }
+
+  .values__info h2 {
+    font-size: 21px;
+  }
+
+  .values__info--mission,
+  .values__info--vision {
+    font-size: 18px;
+  }
+
+  .values__info--mission--span,
+  .values__info--vision--span {
+    font-size: 16px;
+  }
+
+  .values__card--icon {
+    font-size: 25px;
+  }
+
+  .values__card h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 681px) {
+  .values__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  /* TYPOGRAPHY */
+
+  .values__info h2 {
+    font-size: 30px;
+  }
+
+  .values__info--mission--span,
+  .values__info--vision--span {
+    font-size: 16px;
+  }
+
+  .values__card--icon {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,231 @@
+.contactus__container {
+  display: flex;
+  gap: 91px;
+}
+
+.ontactus__details {
+  width: 40%;
+}
+
+.contactus__form {
+  width: 60%;
+}
+
+.contactus__details--info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 38px;
+}
+
+.contactus__details--info__number {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+
+.contactus__details--info__number img {
+  width: 42.332px;
+  height: 42.332px;
+}
+
+.contactus__form {
+  /* outline: 1px solid red; */
+}
+
+.contactus__form--container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+/* TYPOGRAPHY */
+.contactus__details--toppara {
+  display: flex;
+  padding: 0px 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #4eaf4e;
+  color: #fff;
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  font-family: "Lato", sans-serif;
+}
+
+.contactus__details h2 {
+  color: #181818;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.contactus__details--topsubpara,
+.contactus__details--moreinfo p {
+  color: #595566;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.6px;
+  margin-top: 15px;
+}
+
+.contactus__details--topsubpara {
+  font-size: 16px;
+}
+
+.contactus__details--moreinfo p {
+  margin-top: 0;
+}
+
+.contactus__details--moreinfo span {
+  color: #181818;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.contactus__form--input p {
+  color: #181818;
+
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23.6px;
+  margin-bottom: 10px;
+}
+
+.contactus__form--input input {
+  border-radius: 54px;
+  border: 1px solid #c1c1c1;
+  background: #fff;
+  display: flex;
+  width: 318px;
+  padding: 20px 33px;
+  gap: 10px;
+  color: #181818;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.contactus__form--input textarea {
+  display: flex;
+  width: 666px;
+  padding: 22px 33px 111px 33px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 22px;
+  border: 1px solid #c1c1c1;
+  background: #fff;
+  resize: none;
+  height: 157px;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+.contact--textarea {
+  margin-top: 20px;
+}
+
+.contactus__form button {
+  border-radius: 42px;
+  background: #ffcc4a;
+  display: flex;
+  padding: 16px 27px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #181818;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: all ease-in-out 0.5s;
+}
+
+.contactus__form button:hover {
+  transform: scale(0.95);
+}
+
+
+
+@media screen and (max-width: 680px) {
+    .contactus__container {
+        display: flex;
+        flex-direction: column;
+        /* gap: 91px; */
+      }
+      
+      .ontactus__details {
+        width: 100%;
+      }
+      
+      .contactus__form {
+        width: 100%;
+      }
+      
+   
+      
+      .contactus__details--info__number {
+        width: 100%;
+      }
+  
+    
+      
+      .contactus__form--container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 25px;
+      }
+      
+      /* TYPOGRAPHY */
+      .contactus__details--toppara {
+        font-size: 13px; 
+      }
+      
+      
+      .contactus__details--moreinfo span {
+        font-size: 16px;
+      }
+      
+      .contactus__form--input input {
+
+        width: 100%;
+      }
+      
+      .contactus__form--input textarea {
+        width: 100%;        
+      }
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 681px) {
+
+    .contactus__container {
+        display: flex;
+        flex-direction: column;
+        /* gap: 91px; */
+      }
+      
+      .ontactus__details {
+        width: 100%;
+      }
+      
+      .contactus__form {
+        width: 100%;
+      }
+
+      .contactus__form--input textarea {
+        width: 90%;        
+      }
+}
