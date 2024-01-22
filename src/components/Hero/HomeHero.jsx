@@ -1,12 +1,14 @@
 import PrimaryButton from "../Button/PrimaryButton";
-import { NewNavbar } from "../Navigation/NewNavbar";
+import Navbar from "../Navigation/Navbar";
+// import { NewNavbar } from "../Navigation/NewNavbar";
 import "./index.css";
 
 const HomeHero = () => {
   return (
     <>
       <div className="homehero__container">
-        <NewNavbar />
+        {/* <NewNavbar /> */}
+        <Navbar/>
 
         <div className="homehero__content">
           <h1>Your Trusted Partner in Professional Financial Services</h1>
