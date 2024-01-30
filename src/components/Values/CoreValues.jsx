@@ -8,8 +8,8 @@ const CoreValues = () => {
   return (
     <section className="values__container">
       <div className="values__info">
-        <p className="values__info--colour">Principles</p>
-        <h2>Our Core Values & Principles</h2>
+        <p className="values__info--colour">Values</p>
+        <h2>Our Values</h2>
 
         <p className="values__info--mission">Mission</p>
         <span className="values__info--mission--span">

@@ -61,7 +61,7 @@ const OurStory = () => {
       </div>
       <div className="ourstory__right">
         <p className="ourstory__right--span">Growing with our clients</p>
-        <p className="ourstory__right--heading">19+ Years of Experience</p>
+        <p className="ourstory__right--heading">Decades of Collective Experience</p>
         <p className="ourstory__right--mainpara">
           O.M. ASSOCIATES was founded in June 2005 by a group of professionals
           with decades of experience and expertise in a variety of fields. Our

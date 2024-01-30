@@ -21,7 +21,7 @@ const Contact = () => {
             <img src={call} alt="O.M.Associates Icon" />
             <div className="contactus__details--moreinfo">
               <p>Call Today</p>
-              <span>+234 807 048 0003/ +234 805 787 5517</span>
+              <span>+234 814 466 7041 / +234 805 787 5517</span>
             </div>
           </div>
           <div className="contactus__details--info__number">

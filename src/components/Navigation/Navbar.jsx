@@ -45,17 +45,14 @@ function Navbar() {
               Insights
             </Link>
           </li>
-          
+
           <li className="nav-item">
-            <Link
-              to="/about"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              About Us
+            <Link to="/industries" className="nav-links" onClick={closeMobileMenu}>
+              Industries
             </Link>
           </li>
-          {/* <li
+
+           <li
             className="nav-item"
           >
             <Link
@@ -65,50 +62,30 @@ function Navbar() {
             >
               Services
             </Link>
-          </li> */}
+          </li>
+
           <li className="nav-item">
             <Link
-              to="/audit"
+              to="/about"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Audit & Assurance
+              About Us
             </Link>
           </li>
+ 
           <li className="nav-item">
-            <Link to="/tax" className="nav-links" onClick={closeMobileMenu}>
-              Tax Advisory
+            <Link to="/career" className="nav-links" onClick={closeMobileMenu}>
+              Career
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/consulting" className="nav-links" onClick={closeMobileMenu}>
-              Consulting
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/cfo" className="nav-links" onClick={closeMobileMenu}>
-              CFO
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/events" className="nav-links" onClick={closeMobileMenu}>
-              Events
-            </Link>
-          </li>
+         
           <li className="nav-item wht--link">
             <Link to="/whtapp" className="nav-links" onClick={closeMobileMenu}>
               WHT APP
             </Link>
           </li>
-          <li>
-            {/* <Link
-              to='/sign-up'
-              className='nav-links-mobile'
-              onClick={closeMobileMenu}
-            >
-                Get in Touch 👋
-            </Link> */}
-          </li>
+          
         </ul>
         {/* <Button /> */}
       </nav>

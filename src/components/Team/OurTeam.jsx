@@ -8,7 +8,7 @@ const OurTeam = () => {
   return (
     <section className="team__container">
       <div className="team__container--headings">
-        <p className="team__container--toppara">Our Team</p>
+        <p className="team__container--toppara">Our People</p>
         <h2>We champion the bold to achieve the extraordinary</h2>
         <p className="top__container--subpara">
           At O.M. Associates, we champion the bold to achieve the extraordinary.
