@@ -51,7 +51,7 @@ const Footer = () => {
 
             <div className="footer__icons">
               <a
-                href="https://facebook.com/profile.php?id=100064158423814"
+                href="https://www.facebook.com/omassociates2?mibextid=ZbWKwL"
                 className="social-media__links"
                 target="_blank"
                 rel="noreferrer"
@@ -68,7 +68,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://instagram.com/omassociates.ng?igshid=YmMTA2M2Y="
+                href="https://www.instagram.com/omassociates_ng/?igsh=yzljYTk1ODg3Zg%3D%3D"
                 className="social-media__links"
                 target="_blank"
                 rel="noreferrer"

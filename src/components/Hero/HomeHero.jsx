@@ -7,7 +7,6 @@ const HomeHero = () => {
   return (
     <>
       <div className="homehero__container">
-        {/* <NewNavbar /> */}
         <Navbar/>
 
         <div className="homehero__content">

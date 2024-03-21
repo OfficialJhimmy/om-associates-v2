@@ -13,7 +13,7 @@ const CoreValues = () => {
 
         <p className="values__info--mission">Mission</p>
         <span className="values__info--mission--span">
-          To provide a top-notch professional services to our clients and
+          To provide top-notch professional services to our clients and
           surpass the expectations of all our stakeholders
         </span>
 

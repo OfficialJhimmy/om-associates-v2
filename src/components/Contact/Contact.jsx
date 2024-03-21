@@ -28,7 +28,7 @@ const Contact = () => {
             <img src={time} alt="O.M.Associates Icon" />
             <div className="contactus__details--moreinfo">
               <p>Monday to Friday</p>
-              <span>9AM - 5PM</span>
+              <span>8AM - 5PM</span>
             </div>
           </div>
           <div className="contactus__details--info__number">

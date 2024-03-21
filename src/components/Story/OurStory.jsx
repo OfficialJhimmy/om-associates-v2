@@ -13,7 +13,7 @@ const OurStory = () => {
           We are Here to Ease Your Financial Obstacles
         </p>
         <p className="ourstory__toppara">
-          Embark on a journey towards financial empowerment with O.M.
+          Embark on a journey with O.M.
           Associates. We understand that navigating the complexities of finance
           can be challenging, and that is why we are dedicated to providing you
           with tailored solutions that alleviate your financial obstacles.
